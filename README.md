@@ -155,7 +155,7 @@ Thank you for this awesome inspiration. Designed by [Kamil Janus](https://dribbb
 
 ## Author
 
-FreakyCoder, kurayogun@gmail.com
+AdhamShrqawy, adhamshrqawy@icloud.com
 
 ## License
 
