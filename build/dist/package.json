@@ -1,0 +1,61 @@
+{
+  "name": "react-native-beautiful-timeline-pressable",
+  "version": "1.1.7",
+  "description": "Updated to be Pressable.",
+  "keywords": [
+    "pressable",
+    "timeline",
+    "beautiful",
+    "dynamic",
+    "customizable",
+    "FreakyCoder",
+    "freakycoder",
+    "kuray",
+    "Kuray",
+    "react",
+    "react-native",
+    "javascript",
+    "ui-lib",
+    "rn"
+  ],
+  "bugs": "https://github.com/TextuarySolid45/react-native-timeline-pressable",
+  "main": "./build/dist/Timeline.js",
+  "author": "Gabe (Gabo like in El Chapo) <adhamshrqawy@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@freakycoder/react-native-helpers": ">= 0.1.0",
+    "moment": ">= 2.24.0",
+    "react-native-androw": ">= 0.0.34",
+    "react-native-dash-2": ">= 0.2.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "@types/react-native": "^0.72.2",
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "npm-post-install": "0.0.2",
+    "prettier": "^3.0.0",
+    "prettier-format": "^3.2.0",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
+    "format": "prettier --write \"lib/**/*.ts\" \"lib/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "version": "npm run format && git add -A lib",
+    "postversion": "git push && git push --tags",
+    "prettier": "cd lib && npx prettier --write . && git add .",
+    "prepare": "husky install",
+    "husky:setup": "npx husky-init && npm run husky:commitlint && npm run husky:prettier && npm run husky:lint",
+    "husky:commitlint": "npx husky add .husky/commit-msg 'npx --no-install commitlint --edit'",
+    "husky:prettier": "npx husky set .husky/pre-commit 'npm run prettier'",
+    "husky:lint": "npx husky add .husky/pre-commit 'npm run lint'"
+  }
+}
