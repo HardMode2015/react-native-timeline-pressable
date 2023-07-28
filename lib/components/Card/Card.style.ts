@@ -29,14 +29,14 @@ export default StyleSheet.create<Style>({
     color: "#556084",
     fontSize: 14,
     fontWeight: "bold",
-    textAlign: 'right'
+    textAlign: 'left'
   },
   subtitleTextStyle: {
     color: "#8c93ab",
     fontSize: 12,
     marginTop: 8,
     fontWeight: "600",
-    textAlign: 'right'
+    textAlign: 'left'
   },
   dateTextStyle: {
     color: "#ccc",
