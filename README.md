@@ -46,7 +46,7 @@ npm i react-native-beautiful-timeline
 ## Import
 
 ```js
-import Timeline from "react-native-beautiful-timeline";
+import Timeline from "react-native-timeline-pressable";
 ```
 
 ## Basic Usage

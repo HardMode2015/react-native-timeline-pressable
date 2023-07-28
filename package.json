@@ -1,5 +1,5 @@
 {
-  "name": "react-native-beautiful-timeline-pressable",
+  "name": "react-native-timeline-pressable",
   "version": "1.1.7",
   "description": "Updated to be Pressable.",
   "keywords": [
@@ -18,7 +18,7 @@
     "ui-lib",
     "rn"
   ],
-  "bugs": "https://github.com/TextuarySolid45/react-native-timeline-pressable",
+  "bugs": "https://github.com/hardmode2015/react-native-timeline-pressable",
   "main": "./build/dist/Timeline.js",
   "author": "Gabe (Gabo like in El Chapo) <adhamshrqawy@icloud.com>",
   "license": "MIT",
