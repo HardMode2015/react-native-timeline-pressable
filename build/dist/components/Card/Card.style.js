@@ -17,12 +17,14 @@ export default StyleSheet.create({
         color: "#556084",
         fontSize: 14,
         fontWeight: "bold",
+        textAlign: 'left'
     },
     subtitleTextStyle: {
         color: "#8c93ab",
         fontSize: 12,
         marginTop: 8,
         fontWeight: "600",
+        textAlign: 'left'
     },
     dateTextStyle: {
         color: "#ccc",
